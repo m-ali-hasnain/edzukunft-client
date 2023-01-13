@@ -1,0 +1,8 @@
+.title {
+  position: relative;
+}
+.subtitle {
+  position: absolute;
+  top: 7%;
+  left: 10%;
+}

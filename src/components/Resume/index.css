@@ -1,0 +1,35 @@
+.custom-card {
+  margin-top: 0 !important;
+  box-shadow: none !important;
+}
+
+.custom-card-body {
+  padding: 0px !important;
+}
+
+.resume-navbar {
+  box-shadow: none !important;
+}
+
+.resume-navbar-brand {
+  padding-top: 0.3125rem !important;
+  padding-bottom: 0.3125rem !important;
+  margin-right: 1rem !important;
+  font-size: 1.25rem !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+}
+
+.resume-nav-item {
+  box-shadow: none !important;
+}

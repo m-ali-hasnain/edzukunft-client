@@ -1,0 +1,66 @@
+.nav-pills .nav-link.active {
+  background-color: #e3ebf7 !important;
+  color: #285192 !important;
+}
+
+.nav-pills .nav-link {
+  border-radius: 0.25rem !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  padding: 17px 29px 16px 29px !important;
+  line-height: 1 !important;
+  background-color: #f7f7f7 !important;
+  font-weight: 500 !important;
+  color: rgba(0, 0, 0, 0.55) !important;
+  margin: 0.5rem !important;
+}
+
+.tab-pane .btn {
+  font-weight: 500 !important;
+  padding: 0.625rem 1.5rem 0.5rem 1.5rem !important;
+  font-size: 0.75rem !important;
+  background-color: #14a44d !important;
+}
+
+.form-area {
+  width: 50% !important;
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  padding: 1rem;
+}
+
+.custom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-check {
+  text-align: left !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.form-check-input {
+  float: none !important;
+}
+
+.field-icon {
+  float: right;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
+  padding-right: 1.5rem;
+  color: #6c757d !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-area {
+    width: 90% !important;
+    margin: 1rem 0;
+  }
+  .custom-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
